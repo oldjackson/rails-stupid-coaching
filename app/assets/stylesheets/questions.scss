@@ -1,3 +1,35 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.bubble{
+  display: flex;
+  margin: 20px 0;
+  width: 50%;
+}
+
+.bubble, .spacer, .sentence{
+  height: 80px;
+}
+
+.spacer{
+  background-color: #cccccc;
+  width: 10px;
+}
+
+.sentence{
+  padding-left: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  p{
+    margin: 0;
+  }
+}
+
+
+
+.answer{
+  background-color: #FFFEE2;
+}
+
